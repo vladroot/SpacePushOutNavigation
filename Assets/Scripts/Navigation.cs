@@ -1,8 +1,7 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Obstacle
+public struct Obstacle
 {
     public Collider collider;
     public Transform transform;
